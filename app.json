@@ -1,0 +1,49 @@
+﻿{
+  "expo": {
+    "name": "TwinMindMobile",
+    "slug": "TwinMindMobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "TwinMind needs microphone access for voice recognition and recording.",
+        "NSSpeechRecognitionUsageDescription": "TwinMind uses speech recognition to transcribe your voice into text."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.shreyas262005.TwinMindMobile",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow TwinMind to access your microphone for voice recording and AI transcription."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8fe4ae8a-c133-40e5-bb5c-82870ae7ecec"
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+﻿# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Git
+.git/
+
+# Python (for TwinMind-AI folder)
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+twinmind_ai_env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Models and large files
+*.bin
+*.safetensors
+models/
+model_cache/
+
+# Log files
+*.log
+logs/
