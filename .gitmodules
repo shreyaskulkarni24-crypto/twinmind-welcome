@@ -1,0 +1,3 @@
+[submodule "TwinMind-AI"]
+	path = TwinMind-AI
+	url = ./TwinMind-AI
